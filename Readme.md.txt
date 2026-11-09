@@ -4,7 +4,7 @@ Reproduction of "Ensemble Learning for Authentication Using Keystroke Dynamics a
 
 **Course:** CS5100 Foundations of Artificial Intelligence  
 **Semester:** Spring 2026  
-**Student:** Gaurav (Soumya Iyer)  
+**Student:** Soumya Iyer
 **Institution:** Northeastern University
 
 ## Overview
