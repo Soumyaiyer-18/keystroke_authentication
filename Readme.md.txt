@@ -2,9 +2,8 @@
 
 Reproduction of "Ensemble Learning for Authentication Using Keystroke Dynamics and Robust Recurrent Confidence Model" by Kiyani et al. (2020)
 
-**Course:** CS5100 Foundations of Artificial Intelligence  
-**Semester:** Spring 2026  
-**Student:** Soumya Iyer
+**Course:** CS5100 Foundations of Artificial Intelligence, Spring 2026
+**Author:** Soumya Iyer
 **Institution:** Northeastern University
 
 ## Overview
@@ -17,39 +16,30 @@ This project reproduces the core contributions of Kiyani et al.'s keystroke dyna
 
 ## Results
 
-- **Ensemble Accuracy:** 98.12%
-- **ANGA (Genuine User Usability):** 100%
-- **ANIA (Impostor Detection Speed):** 4%
+| Metric | Result | Meaning |
+|---|---|---|
+| Ensemble accuracy | 98.12% | Overall classification accuracy |
+| ANGA | 100% | Genuine user is never locked out (usability) |
+| ANIA | 4% | Average share of keystrokes before an impostor is detected (lower is better) |
 
 ## Installation
 
-### Prerequisites
-- Python 3.8 or higher
-- pip package manager
+Requires Python 3.8+ and pip.
 
-### Setup
-
-1. Clone this repository:
 ```bash
-git clone https://github.com/YOUR_USERNAME/keystroke-authentication-capstone.git
+git clone https://github.com/Soumyaiyer-18/keystroke-authentication-capstone.git
 cd keystroke-authentication-capstone
-```
-
-2. Install dependencies:
-```bash
 pip install -r requirements.txt
 ```
 
 ## Usage
 
-### Run Complete Demo
+Run the complete demo:
 ```bash
 python capstone_milestone3/demo_notebook.py
 ```
 
-### Run Jupyter Notebook
+Or open the Jupyter notebook:
 ```bash
 jupyter notebook capstone_milestone3/milestone3_demo.ipynb
 ```
-
-## Project Structure
